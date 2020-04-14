@@ -19,6 +19,7 @@
 		{
 			"label": "location"
 			"value": "https://tools.wmflabs.org/geohack/geohack.php?params=35.617235899_N_139.6886408329_E_globe:earth&language=en"
+		},
 		{
 			"label": "Publisher",
 			"value": "Kosuke Shinoda"
