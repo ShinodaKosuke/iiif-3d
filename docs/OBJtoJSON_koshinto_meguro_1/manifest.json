@@ -43,11 +43,11 @@
 			"label": "XSequence 0",
 			"elements": [
 				{
-					"@id": "https://nakamura196.github.io/iiif-3d/hyakki/hyakki.json",
+					"@id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1_low.json",
 					"@type": "dctypes:PhysicalObject",
 					"format": "application/vnd.threejs+json",
 					"label": "百鬼夜行絵巻",
-					"thumbnail": "https://nakamura196.github.io/iiif-3d/hyakki/thumb.jpg"
+					"thumbnail": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1.jpg"
 				}
 			]
 		}
