@@ -3,18 +3,18 @@
 		"http://iiif.io/api/presentation/2/context.json",
 		"http://files.universalviewer.io/ld/ixif/0/context.json"
 	],
-	"@id": "https://nakamura196.github.io/iiif-3d/hyakki/manifest.json",
+	"@id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/manifest.json",
 	"@type": "sc:Manifest",
 	"label": "百鬼夜行絵巻",
 	"thumbnail": {
-		"@id": "https://nakamura196.github.io/iiif-3d/hyakki/thumb.jpg"
+		"@id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1.jpg"
 	},
 	"license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
-	"attribution": "Sample",
+	"attribution": "東京都目黒区南一丁目にある道標付き庚申塔",
 	"metadata": [
 		{
 			"label": "Title",
-			"value": "百鬼夜行絵巻"
+			"value": "道標付き庚申塔（東京都目黒区南一丁目）"
 		},
 		{
 			"label": "Identifier",
@@ -22,23 +22,22 @@
 		},
 		{
 			"label": "Publisher",
-			"value": "3Dサンプルコレクション"
+			"value": "Kosuke Shinoda"
 		},
 		{
 			"label": "References",
-			"value": "https://nakamura196.github.io/iiif-3d/hyakki/manifest.json"
+			"value": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1_low.json"
 		},
 		{
 			"label": "attributionLabel",
 			"value": [
-				"Sample",
-				"サンプル"
+				"東京都目黒区南一丁目にある道標付き庚申塔"
 			]
 		}
 	],
 	"mediaSequences": [
 		{
-			"@id": "https://nakamura196.github.io/iiif-3d/hyakki/manifest.json/sequence/s0",
+			"@id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1_low.json/sequence/s0",
 			"@type": "ixif:MediaSequence",
 			"label": "XSequence 0",
 			"elements": [
@@ -46,7 +45,7 @@
 					"@id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1_low.json",
 					"@type": "dctypes:PhysicalObject",
 					"format": "application/vnd.threejs+json",
-					"label": "百鬼夜行絵巻",
+					"label": "道標付き庚申塔（東京都目黒区南一丁目）",
 					"thumbnail": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1.jpg"
 				}
 			]
