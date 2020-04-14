@@ -5,7 +5,7 @@
 	],
 	"@id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/manifest.json",
 	"@type": "sc:Manifest",
-	"label": "百鬼夜行絵巻",
+	"label": "道標付き庚申塔（東京都目黒区南一丁目）",
 	"thumbnail": {
 		"@id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1.jpg"
 	},
