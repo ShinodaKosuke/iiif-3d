@@ -4,31 +4,37 @@
         "http://iiif.io/api/presentation/3/context.json"
     ],
     "type": "Manifest",
-    "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json",
+    "id": "http://www.kanzaki.com/works/2018/threed/nefertiti-manifest.json",
     "label": {
         "en": [
-            "Koshinto(Minami-1-chome, Meguro-ku, Tokyo-to)"
+            "Bust of Queen Nefertiti"
         ],
         "ja": [
-            "道標付き庚申塔（東京都目黒区南一丁目）"
+            "ネフェルティティの胸像"
         ]
     },
     "description": {
         "en": [
-            "Koshinto set in 1788 at inami-1-chome, Meguro-ku, Tokyo-to"
+            "limestone and stucco, 1345 BC: by Thutmose, ancient Egypt. Presented at Neues Museum, Berlin"
         ],
         "ja": [
-            "東京都目黒区南一丁目にある1788年に造立された道標付き庚申塔"
+            "紀元前1345年のエジプトでつくられた胸像。ベルリン新博物館蔵"
         ]
     },
     "requiredStatement": {
       "label": { "@none": [ "Attribution" ] },
-      "value": { "@none": [ "庚申塔・道標" ] }
+      "value": { "@none": [ "3D models by Nefertiti Hack, converted to Threejs data by UniversalViewer example site." ] }
     },
+    "metadata": [
+        {
+            "label": {"@none": ["Nefertiti Hack"]}, 
+            "value": {"@none": ["http://nefertitihack.alloversky.com/"]}
+        }
+    ],
     "items": [
         {
             "type": "Canvas",
-            "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/canvas/1",
+            "id": "http://www.kanzaki.com/works/2018/threed/nefertiti/canvas/1",
             "label": {
                 "@none": [
                     "Three D canvas"
@@ -38,14 +44,14 @@
             "height": 700,
             "items": [
                 {
-                    "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/content/media-1-1",
+                    "id": "http://www.kanzaki.com/works/2018/threed/nefertiti/content/media-1-1",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/media/1-1-1",
+                            "id": "http://www.kanzaki.com/works/2018/threed/nefertiti/media/1-1-1",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/canvas/1",
+                            "target": "http://www.kanzaki.com/works/2018/threed/nefertiti/canvas/1",
                             "body": {
                                 "type": "PhysicalObject",
                                 "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1_low.json",
@@ -55,15 +61,15 @@
                     ]
                 },
                 {
-                    "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/content/annot-1-1",
+                    "id": "http://www.kanzaki.com/works/2018/threed/nefertiti/content/annot-1-1",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/annot/1-1-1",
+                            "id": "http://www.kanzaki.com/works/2018/threed/nefertiti/annot/1-1-1",
                             "type": "Annotation",
                             "motivation": "painting",
                             "target": {
-                                "source": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/canvas/1",
+                                "source": "http://www.kanzaki.com/works/2018/threed/nefertiti/canvas/1",
                                 "selector": {
                                     "type": "3DSelector",
                                     "value": "0.55,0,1.2"
@@ -71,15 +77,15 @@
                             },
                             "body": {
                                 "type": "TextualBody",
-                                "value": "東京都目黒区南一丁目にある1788年に造立された道標付き庚申塔"
+                                "value": "This is her left ear"
                             }
                         },
                         {
-                            "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/annot/1-1-1",
+                            "id": "http://www.kanzaki.com/works/2018/threed/nefertiti/annot/1-1-1",
                             "type": "Annotation",
                             "motivation": "painting",
                             "target": {
-                                "source": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/canvas/1",
+                                "source": "http://www.kanzaki.com/works/2018/threed/nefertiti/canvas/1",
                                 "selector": {
                                     "type": "3DSelector",
                                     "value": "-1.6,-2.2,-0.9"
@@ -87,15 +93,15 @@
                             },
                             "body": {
                                 "type": "TextualBody",
-                                "value": "盃状穴"
+                                "value": "There supposed to be her right shoulder"
                             }
                         },
                         {
-                            "id": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/annot/1-1-1",
+                            "id": "http://www.kanzaki.com/works/2018/threed/nefertiti/annot/1-1-1",
                             "type": "Annotation",
                             "motivation": "painting",
                             "target": {
-                                "source": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1_v2/manifest.json/canvas/1",
+                                "source": "http://www.kanzaki.com/works/2018/threed/nefertiti/canvas/1",
                                 "selector": {
                                     "type": "3DSelector",
                                     "value": "-0.8,2.3,0.6"
@@ -103,7 +109,7 @@
                             },
                             "body": {
                                 "type": "TextualBody",
-                                "value": "文字塔"
+                                "value": "The ribbon on the Nefertiti cap crown"
                             }
                         }
                     ]
