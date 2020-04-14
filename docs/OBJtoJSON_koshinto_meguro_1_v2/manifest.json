@@ -42,10 +42,6 @@
 			"label": "References",
 			"value": "https://shinodakosuke.github.io/iiif-3d/docs/OBJtoJSON_koshinto_meguro_1/OBJtoJSON_koshinto_meguro_1_low.json"
 		},
-	    {
-		    "label": {"@none": ["石造物3Dアーカイブ"]},
-		    "value": {"@none": ["https://stonework-3d-archive.github.io/"]}
-	    },
     ],
     "items": [
         {
