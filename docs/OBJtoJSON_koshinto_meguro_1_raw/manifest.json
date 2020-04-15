@@ -72,7 +72,7 @@
                                 "source": "http://www.kanzaki.com/works/2018/threed/nefertiti/canvas/1",
                                 "selector": {
                                     "type": "3DSelector",
-                                    "value": "0.55,0,1.2"
+                                    "value": "0,0,0"
                                 }
                             },
                             "body": {
